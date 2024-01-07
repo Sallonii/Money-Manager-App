@@ -1,0 +1,31 @@
+/* Write your CSS here */
+.list-container {
+  list-style-type: none;
+  border-radius: 10px;
+  border-style: solid;
+  padding: 5px;
+  margin: 5px;
+  width: 25vh;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.logo {
+  height: 40px;
+}
+.green {
+  border-color: #84cc16;
+  background-color: #ecfccb;
+}
+.blue {
+  border-color: #06b6d4;
+  background-color: #cffafe;
+}
+.purple {
+  border-color: #7c3aed;
+  background-color: #ede9fe;
+}
+.text {
+  font-size: 15px;
+}

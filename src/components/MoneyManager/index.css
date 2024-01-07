@@ -1,0 +1,38 @@
+/* Write your CSS here */
+.bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 100vh;
+  padding: 40px;
+}
+
+.card-container {
+  width: 85vh;
+}
+.hi-card {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  padding: 5px;
+  border-radius: 10px;
+}
+.money-card-ul-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-wrap: wrap;
+}
+.form-container {
+  border-style: solid;
+  border-color: grey;
+
+  width: 50%;
+}
+
+@media screen and (max-width: 767px) {
+  .form-container {
+    width: 80%;
+  }
+}
