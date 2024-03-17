@@ -1,18 +1,16 @@
-// Write your code here
 import './index.css'
 
 const MoneyDetails = props => {
-  const {moneyDetails} = props
-  const {img, text, altText, amount, cardColor} = moneyDetails
-
+  const {moneyTypeDetails} = props
+  const {moneyType, amount, classname, imageUrl, id} = moneyTypeDetails
   return (
-    <li className={`list-container ${cardColor}`}>
-      <img src={img} alt={altText} className="logo" />
+    <div className={`money-container ${classname}`}>
+      <img src={imageUrl} alt={id} className="money-image" />
       <div>
-        <h1 className="text">{text}</h1>
-        <p className="amount">{amount}</p>
+        <p>{moneyType}</p>
+        <h4>{`Rs ${amount}`}</h4>
       </div>
-    </li>
+    </div>
   )
 }
 
