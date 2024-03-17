@@ -1,31 +1,28 @@
-/* Write your CSS here */
-.list-container {
-  list-style-type: none;
-  border-radius: 10px;
+.balance {
+  background-color: #ecfccb;
+  border-color: #84cc16;
+}
+.income {
+  background-color: #cffafe;
+  border-color: #06b6d4;
+}
+.expenses {
+  background-color: #ede9fe;
+  border-color: #7c3aed;
+}
+
+.money-container {
   border-style: solid;
-  padding: 5px;
+  border-radius: 10px;
+  padding: 10px;
+  height: 90px;
+  width: 100%;
   margin: 5px;
-  width: 25vh;
 
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
 }
-.logo {
-  height: 40px;
-}
-.green {
-  border-color: #84cc16;
-  background-color: #ecfccb;
-}
-.blue {
-  border-color: #06b6d4;
-  background-color: #cffafe;
-}
-.purple {
-  border-color: #7c3aed;
-  background-color: #ede9fe;
-}
-.text {
-  font-size: 15px;
+.money-image {
+  height: 30px;
 }
