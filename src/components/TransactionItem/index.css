@@ -1,1 +1,8 @@
-/* Write your CSS here */
+.delete-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.delete-button-img {
+  height: 20px;
+}
